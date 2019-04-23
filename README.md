@@ -1,9 +1,6 @@
 # Frontend Timeview with React, Redux & TypeScript
 
 
-### Branches
-- [`feature-tslint`](https://github.com/rokoroku/react-redux-typescript-boilerplate/tree/feature/tslint): yarn + tslint + prettier integrated branch.
-
 ## Contains
 
 - [x] [Typescript](https://www.typescriptlang.org/) 2.7
@@ -39,22 +36,6 @@ $ npm install
 ```
 $ npm start
 ```
-
-## Build
-
-```
-$env:__API_PATH__ = "http://app.timeview.com.br:8081/api"
-$env:__AUTH_PATH__ = "http://app.timeview.com.br:8081"
-$env:__WS_PATH__ = "ws://app.timeview.com.br:8081/connect"
-npm run build
-```
-
-## Prettier
-
-```
-$ npm run prettier
-```
-
 # License
 
 MIT
